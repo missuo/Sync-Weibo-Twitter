@@ -1,3 +1,13 @@
+<!--
+ * @Author: Vincent Young
+ * @Date: 2022-07-04 18:40:32
+ * @LastEditors: Vincent Young
+ * @LastEditTime: 2022-07-04 19:01:21
+ * @FilePath: /log/Users/vincent/Downloads/Sync-Weibo-Twitter/README.md
+ * @Telegram: https://t.me/missuo
+ * 
+ * Copyright © 2022 by Vincent, All Rights Reserved. 
+-->
 # Sync Weibo To Twitter
 An automatic real-time Weibo Twitter synchronization tool
 
@@ -28,9 +38,9 @@ An automatic real-time Weibo Twitter synchronization tool
 
 6. Change the `ifttt.py` file. Modify the line 72-74.
 ~~~
-	path = './weibo/YOURWEIBONAME/YOURWEIBOID.json' # Weibo Crawler JSON File
-	event_name = 'XXX' # Webhooks Event Name
-	key = 'XXX' # Webhooks Key
+path = './weibo/YOURWEIBONAME/YOURWEIBOID.json' # Weibo Crawler JSON File
+event_name = 'XXX' # Webhooks Event Name
+key = 'XXX' # Webhooks Key
 ~~~
 
 7. Installing the Python environment
